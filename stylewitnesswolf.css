@@ -1,0 +1,51 @@
+header {
+      text-align: center;
+      background: black;
+      background-size: cover;
+      color: white;
+      font-size: 50px;
+    }
+    
+    a {
+      color: white;
+    }
+    .link-to-top{
+      color: blue;
+    }
+    h1 {
+      background: black;
+      font-size: 40px;
+      font-style: Helvetica;
+      text-align: center;
+      color: white;
+    }
+    
+    ul {
+      padding: 10px;
+      background: black;
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+  form {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  img {
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 0.25rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      width: 100%;
+      height: 50%;
+  }
+
+
+
+   
