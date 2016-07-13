@@ -1,51 +1,172 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  
+  margin: 0 auto;
+
+}
 header {
       text-align: center;
       background: black;
       background-size: cover;
       color: white;
-      font-size: 50px;
+      font-size: helvetica;
+      font-size: 30px;
+      position: fixed;
+      width: 100%;
+      height: 10%;
+
+
     }
-    
-    a {
+
+.hero {
+      display: inline-block;
+      background-image: url(witnesswolfimages/DSC_0451.jpg);
+      height: 500px;
+      margin-top: 100px;
+      width: 100%;
+      background-size: cover;
+      border: 2px solid black;
+    }
+
+.hero:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+a {
       color: white;
+      text-decoration: none;
+      font-style: helvetica;
+
     }
-    .link-to-top{
-      color: blue;
+
+.link-to-top{
+      color: #5DAD7F;
     }
-    h1 {
+
+h1 {
       background: black;
       font-size: 40px;
-      font-style: Helvetica;
+      font-style: helvetica;
       text-align: center;
       color: white;
+      margin: auto;
     }
-    
-    ul {
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+}
+
+p {
+      background-color: white;
+      text-align: center;
+      float: right;
+      font-style: helvetica;
+      display: inline-block;
+      font-size: 30px;
+      box-shadow: 10px;
+      border: 2px solid black;
+
+}
+
+ul {
       padding: 10px;
       background: black;
+      font: helvetica;
     }
     
-    li {
+li {
       display: inline;
-      padding: 0px 10px 0px 10px;
+      padding: 0px 5px 0px 5px;
+      font: helvetica;
+
     }
 
-  form {
+
+
+form {
     text-align: center;
     font-size: 30px;
-  }
+    font: helvetica;
+      }
 
-  img {
+textarea  {
+    height: 100px;
+    resize: none;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ADADAD;
+    width: 30%;
+}
+
+.grid {
+
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.portfolioimg {
       display: block;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-bottom: 0.25rem;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      float: left;
+      height: 40%;
+      width: 25%;
+      border-top: 2px solid black;
+
+}
+
+section {
+  width: 100%;
+}
+
+#box {
       width: 100%;
-      height: 50%;
+      clear: both;
+      position: absolute;
+      float: right;
+}
+#heropic {
+  max-width: 100%;
+  height: 500px;
+  border: 2px solid black;
+  display: block;
+
+}
+
+
+/*body {
+      
+      background-color: black;
+    }
+
+img {
+   display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  height: 50%;
   }
 
-
+*/
 
    
